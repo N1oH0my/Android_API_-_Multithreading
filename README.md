@@ -1,26 +1,14 @@
 ### Основы сетевого взаимодействия в Android
 
-Этот тестовый проект создан в рамках обучающего курса<br> <b>"Оффлайн Android школа в ВГУ 2024".</b>
-
-В ходе урока рассмотрены различные способы выполнения запросов в сеть. Было изучено <b>9 различных подходов к выполнению одного и того же запроса.</b><br><br>
-Были рассмотрены следующие компоненты:
+Здесь рассмотрены 9 различных подходов к выполнению одного и того же запроса. </br></br>
+Использованы следующие компоненты, связанные с этим процессом:</br>
 
 1. Thread
 2. RxJava3
 3. Coroutines
-4. OkHttp
-5. Retrofit
-6. Gson
-7. ConverterFactory
-8. CallAdapterFactory
-9. Interceptor
-
-##### Практическая работа
-
-1. Склонируйте репозиторий и запустите проект: https://github.com/shalkov/VSU_Lesson6
-2. Изучите проект.
-3. Рейлизуйте GET запрос: https://busapi.shalkoff.ru/schedule/all
-4. Возвращаемый объект уже существует в проекте: RoutesResponse, использовать его.
-5. Запрос необходимо реализовывать с помощью Retrofit, любым способом.
-
-Решение практической работы, находится в ветке <b>practice</b>
+5. [OkHttp](https://github.com/N1oH0my/Android_API_-_Multithreading/tree/master/app/src/main/java/ru/shalkoff/vsu_lesson6/okhttp)
+6. [Retrofit](https://github.com/N1oH0my/Android_API_-_Multithreading/blob/master/app/src/main/java/ru/shalkoff/vsu_lesson6/retrofit/ExampleRetrofit.kt)
+7. Gson
+8. ConverterFactory
+9. CallAdapterFactory
+10. Interceptor
